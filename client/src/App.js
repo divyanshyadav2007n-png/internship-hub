@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const baseUrl = 'https://internship-hub-47pr.onrender.com'; 
+const baseUrl = 'https://internship-hub-47pr.onrender.com/'; 
 
 const App = () => {
     const [mode, setMode] = useState('register'); // 'register' or 'login'
