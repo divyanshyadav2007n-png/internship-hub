@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-// PORT 5000 se 5001 kar diya hai backend connection ke liye
-const baseUrl = 'http://localhost:5001'; 
+const baseUrl = 'https://internship-hub-47pr.onrender.com'; 
 
 const App = () => {
     const [mode, setMode] = useState('register'); // 'register' or 'login'
