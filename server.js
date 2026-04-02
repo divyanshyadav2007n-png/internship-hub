@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://internship-hub-dun.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true
 }));
